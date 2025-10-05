@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaScript Fundamentals</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>JavaScript Fundamentals Project</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Part 1: User Input and Decision</h2>
+      <p id="greeting">What's your name?</p>
+      <input type="text" id="nameInput" placeholder="Enter your name" />
+      <button id="greetBtn">Say Hello</button>
+    </section>
+
+    <section>
+      <h2>Part 2: Functions</h2>
+      <button onclick="showTotal()">Calculate Total</button>
+      <p id="totalResult"></p>
+    </section>
+
+    <section>
+      <h2>Part 3: Loops</h2>
+      <button onclick="showCountdown()">Start Countdown</button>
+      <ul id="countdownList"></ul>
+    </section>
+
+    <section>
+      <h2>Part 4: DOM Interactions</h2>
+      <button id="toggleBtn">Toggle Background</button>
+      <button id="addItemBtn">Add Item</button>
+      <ul id="itemList">
+        <li>Item 1</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 JavaScript Practice</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
